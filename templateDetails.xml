@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+
+<extension version="3" type="template" client="site" method="upgrade">
+	
+	<name>Blank Markrv</name><!-- name the template -->
+	<creationDate>1-05-2015</creationDate><!-- the date your are beginn to code -->
+	<author>Markrv</author><!-- your name (oops, I repeat myself) -->
+	<version>1.0.0</version><!-- give your template a number -->
+	<description><![CDATA[ 
+		<h1>Blank Markrv</h1>
+		<p>Bootstrap</p>
+		<p>Bootstrap responsive</p>
+		<p>Joomla LESS</p>
+		<p>error page</p>
+	]]></description><!-- change the description as you like -->
+	
+	<files><!-- no need to change -->
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>index.php</filename>
+		<filename>logic.php</filename>
+		<filename>offline.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>favicon.ico</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	
+	<positions><!-- define the positions for modules here -->
+		<position>navigation</position>
+        <position>phone</position>
+        <position>langu</position>
+        <position>footer</position>
+	</positions>
+	
+</extension>
